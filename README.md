@@ -4,7 +4,7 @@ An app which tracks spending using ReactJS
 Please follow the steps to kick off this project:
 
 Add depdency modules:
-- Run command: "Yarn add"
+- Run command: "npm install"
 
 To start the dev server:
 - Run command: "Yarn dev-server"
