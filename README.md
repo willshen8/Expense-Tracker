@@ -3,7 +3,11 @@ An app which tracks spending using ReactJS
 
 Please follow the steps to kick off this project:
 
+<<<<<<< HEAD
 Add dependency modules:
+=======
+Add depdency modules:
+>>>>>>> da1d1b6dfc0efc496704fee0b49d5e435400fde8
 - Run command: "npm install"
 
 To start the dev server:
