@@ -1,17 +1,30 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run test
+  /usr/local/bin/node /usr/local/bin/yarn add moment@ 2.19.3
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
-  1.5.1
+  1.7.0
 
 Node version: 
   8.1.1
 
 Platform: 
   darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/2.19.3: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:134675:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:135658:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)
 
 npm manifest: 
   {
@@ -6526,19 +6539,3 @@ Lockfile:
       cliui "^2.1.0"
       decamelize "^1.0.0"
       window-size "0.1.0"
-
-Trace: 
-  Error: Command failed.
-  Exit code: 1
-  Command: sh
-  Arguments: -c jest --config=jest.config.json
-  Directory: /Users/willshen/Documents/GitHub/react-course-projects/expensify-app
-  Output:
-  
-      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
-      at emitTwo (events.js:125:13)
-      at ChildProcess.emit (events.js:213:7)
-      at maybeClose (internal/child_process.js:897:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:208:5)
